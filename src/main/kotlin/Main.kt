@@ -3,9 +3,12 @@ fun main(args: Array<String>) {
     print("hmm")
     print("hmm")*/
 
-    val num1 = 1
-    var num2 = 5
-    var z = num1 + num2
+    var yearOfBirth:Int;
+    val currentYear:Int = 2023;
+    var age:Int;
 
-    print("The sum of $num1 and $num2 is $z")
+    yearOfBirth = 1987
+    age = currentYear - yearOfBirth
+
+    print("Your are $age years old today")
 }
